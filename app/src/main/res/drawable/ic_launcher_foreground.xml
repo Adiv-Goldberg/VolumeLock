@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Audio Speaker Body (left side, centered vertically) -->
+    <!-- Speaker box & cone -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M28,44 L36,44 L48,34 L48,74 L36,64 L28,64 Z" />
+
+    <!-- Speaker Sound Waves -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,44 C57,47 57,61 54,64" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M61,38 C66,43 66,65 61,70" />
+
+    <!-- Security Lock Badge on right foreground -->
+    <!-- Lock shackle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M69,54 L69,47 C69,42.5 72.5,39 77,39 C81.5,39 85,42.5 85,47 L85,54" />
+    <!-- Lock body -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M65,53 L89,53 C90.5,53 92,54.5 92,56 L92,72 C92,73.5 90.5,75 89,75 L65,75 C63.5,75 62,73.5 62,72 L62,56 C62,54.5 63.5,53 65,53 Z" />
+    <!-- Keyhole / pin -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M77,60 A2.5,2.5 0 0,0 77,65 L76,69 L78,69 L77,65 Z" />
+
+</vector>

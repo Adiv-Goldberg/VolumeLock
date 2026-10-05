@@ -1,0 +1,6 @@
+{
+  "name": "VolumeLock",
+  "description": "Locks and prevents unwanted volume drops, safe volume warnings, and auto-reductions on Google TV and Android devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

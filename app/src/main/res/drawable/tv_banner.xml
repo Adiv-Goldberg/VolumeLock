@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B132B" />
+                <item android:offset="0.5" android:color="#1C2541" />
+                <item android:offset="1.0" android:color="#3A0CA3" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- TV Banner graphic: speaker + lock shield -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M110,75 L125,75 L145,55 L145,125 L125,105 L110,105 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M158,72 C165,78 165,102 158,108" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M172,62 C184,72 184,110 172,120" />
+    <!-- Lock shield -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M190,82 L220,82 C223,82 225,84 225,87 L225,115 C225,118 223,120 220,120 L190,120 C187,120 185,118 185,115 L185,87 C185,84 187,82 190,82 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M195,82 L195,73 C195,67 200,62 205,62 C210,62 215,67 215,73 L215,82" />
+</vector>
